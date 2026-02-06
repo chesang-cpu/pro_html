@@ -1,0 +1,9 @@
+<?php
+function add ($a,$b){
+$ans= $a+$b;
+return $ans; }
+function mult ($a,$b){
+$ans= $a*$b;
+return $ans; }
+?>
+Save as calc.php
