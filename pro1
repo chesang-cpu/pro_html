@@ -1,0 +1,14 @@
+<body>
+<script>
+function add()
+{var a=eval(document.getElementById (“n1”).value);
+ var b=eval( document.getElementById (“n2”).value);
+ var ans=a+b;
+ document.getElementById (“rs”).value=ans;
+}
+</script>
+<form  name=“form1”>First number  <input type=“text“ value=“ “ name=“num1” id=“n1”>
+Second <input type=“text“ value=“ “ name=“num2”  id=“n2” onblur=“add()”>
+ Result <input type=“text“ value=“ “ name=“res” id=“rs” >
+</form>
+</body
