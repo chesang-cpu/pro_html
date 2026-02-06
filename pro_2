@@ -1,0 +1,15 @@
+<body bgcolor="yellow">
+<script language="javascript">
+function change()
+{var imag=document.getElementById("im");
+imag.src=“giraffe.jpg";
+}
+function retrieve()
+{var imag=document.getElementById("im");
+imag.src=“zebra.jpg";
+}
+</script>
+<h1> WILD ANIMALS IN KENYA </h>
+<img id="im" onmouseover="change()" onmouseout=“retrieve()" src="zebra.jpg" alt="Zebra" height=100 width=120>
+</body>
+</html>
