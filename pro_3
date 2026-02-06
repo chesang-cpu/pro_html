@@ -1,0 +1,10 @@
+function add(a,b)
+{
+total = a+b;
+return total;
+}
+var num1, num2, result;
+num1=parseFloat(prompt("Enter a number",""));
+num2=parseFloat(prompt("Enter a second number",""));
+result = add(num1, num2);
+Document.write("The average is "+result);
